@@ -1,0 +1,147 @@
+
+
+form {
+   margin: 0 auto;
+   width: 350px;
+   padding: 2em;
+   border: 4px;
+   border-radius: 2em black;
+   border: 4px;
+   overflow: hidden;
+   background-color: rgb(243, 239, 242);
+   position: none;
+   float: center;
+   color: white;
+}
+
+/* menu */
+/* menu principal*/
+ul{
+   display: block;
+   background-color: #0c0c0c27;
+   text-decoration: none;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+/* arruma a parte do botão*/
+li{
+   display: block;
+   float: left;
+   width: 20%;
+  
+   
+}
+/* faz com que a lista fique sem a formatação*/
+li a{
+   display: block;
+   height: 30px;
+   text-decoration: none;
+}
+
+li a:hover{
+   background-color: rgb(238, 122, 122);
+}
+
+
+
+article {
+   padding: 50px;
+   margin-top: 30px;
+
+}
+
+
+
+
+p {
+   display: block;
+   float: center;
+   font-family: arial;
+   color: rgb(12, 11, 11);
+}
+
+
+
+body {
+   background-color: #ffbfbf;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+form li {
+
+   margin-top: top;
+   height: 30px;
+   display: block;
+}
+
+div p {
+   margin-top: top;
+   height: 30px;
+   display: block;
+}
+
+label {
+   display: inline-block;
+   width: 60px;
+   text-align: right;
+}
+
+input,
+textarea {
+   font: 1em sans-serif;
+   width: 100px;
+   box-sizing: border-box;
+   border: 1px solid rgb(190, 146, 146);
+   text-align: center;
+}
+
+textarea {
+   vertical-align: top;
+   height: 5em;
+   text-align: center;
+}
+
+
+h1{
+   font-size: 30pt;
+   font-family: arial;
+   color: #0c0c0c;
+}
+
+form {
+   font-size: 12px;
+   text-align: center;
+}
+
+input[type=submit] {
+   margin-left: 30px;
+   margin-bottom: 1em;
+}
+
+input[type=submit] {
+   border: none;
+   border-radius: 15px;
+   padding: 15px 25px;
+   outline: none;
+   background-color: rgb(248, 241, 247);
+   color: rgb(248, 252, 250);
+   font-size: 25px;
+
+   font-size: 14px;
+   box-shadow: 0px 10px rgb(253, 251, 251);
+   cursor: pointer;
+   text-align: center;
+}
+
+input[type=submit]:hover {
+   background-color: #fafcfb;
+}
+
+input[type=submit]:active {
+   background-color: #f3dfdf;
+   box-shadow: 0px 2px rgb(230, 119, 119);
+   transform: translateY(4px);
+}
